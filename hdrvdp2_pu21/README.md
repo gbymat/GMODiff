@@ -87,7 +87,7 @@ test
 
 The script prints per-image scores and then reports the mean scores for each method:
 
-![](../../figs/metrics.png)
+![](../figs/metrics.png)
 
 ## Evaluation Parameters
 
