@@ -62,6 +62,7 @@ bash evaluate_stage3_metrics.sh
 ```
 
 Outputs are saved to the `--output_dir` set in `test_gmodiff.sh`.
+[HDR-VDP-2.2](https://hdrvdp.sourceforge.net/wiki/) and [PU21 metrics](https://github.com/gfxdisp/pu21) require MATLAB for computation. The corresponding evaluation code is provided in `GMODiff/hdrvdp2_pu21`.
 
 
 
