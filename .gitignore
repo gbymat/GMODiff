@@ -1,0 +1,53 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE and OS files
+.idea/
+.vscode/
+.agents/
+.codex/
+.DS_Store
+Thumbs.db
+
+# Jupyter and test caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.codex_deps/
+
+# Experiment outputs
+outputs/
+output/
+logs/
+log/
+runs/
+training_results/
+test_results/
+
+# Large local datasets and checkpoints
+data/
+datasets/
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.safetensors
+
+# Keep placeholder documentation for released weights/checkpoints
+!checkpoint/README.md
+!model_zoo/README.md

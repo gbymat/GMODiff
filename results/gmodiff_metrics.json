@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "metrics": [
+      "maniqa",
+      "musiq",
+      "clipiqa",
+      "dists"
+    ],
+    "input": {
+      "pred_dir": "../../results/gmodiff_test",
+      "gt_dir": "/mnt/e/Ecode/all",
+      "mu": 5000.0,
+      "seed": 123,
+      "clip_to_01": true,
+      "hdr_preprocess": "log1p(mu * hdr) / log1p(mu)"
+    },
+    "environment": {
+      "pyiqa": "0.1.6.1",
+      "torch": "2.0.1+cu117",
+      "opencv": "4.11.0",
+      "device": "cuda"
+    }
+  },
+  "scores": {
+    "maniqa": {
+      "mean": 0.588526040315628,
+      "std": 0.045096949855974004,
+      "count": 78
+    },
+    "musiq": {
+      "mean": 61.039147401467346,
+      "std": 7.120323396702847,
+      "count": 78
+    },
+    "clipiqa": {
+      "mean": 0.4252983186489496,
+      "std": 0.08921335699337712,
+      "count": 78
+    },
+    "dists": {
+      "mean": 0.010311086972554525,
+      "std": 0.009700897926121672,
+      "count": 78
+    }
+  }
+}
