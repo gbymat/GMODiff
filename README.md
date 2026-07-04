@@ -207,7 +207,7 @@ The pretrained baseline weights can be downloaded from [Baidu Netdisk](https://p
 
 - Stage-3 uses Stable Diffusion 2.1 `stabilityai/stable-diffusion-2-1-base` as the pretrained LDM backbone. Since the original Hugging Face repository no longer provides the model weights, `Manojb/stable-diffusion-2-1-base` can be used as an alternative.
 - `MANIQA` may use different pretrained weights across `PyIQA` versions, and its scores can fluctuate even for identical input images. To ensure a fair comparison, all experiments are conducted with the same random seed.
-- We include the GAN loss following [CODiff](https://github.com/IGITUGraz/WeatherDiffusion](https://github.com/jp-guo/CODiff?tab=readme-ov-file)). The released implementation evaluates the denoising encoder under `torch.no_grad()` during this loss computation, which blocks gradients through this branch. To avoid ambiguity and reduce training overhead, this loss is disabled by default in this repository.
+- We include the GAN loss following [CODiff](https://github.com/IGITUGraz/WeatherDiffusion](https://github.com/jp-guo/CODiff?tab=readme-ov-file)). The released implementation forwards the denoising encoder under `torch.no_grad()` during this loss computation, which blocks gradients through this branch. To avoid ambiguity and reduce training overhead, this loss is disabled by default in this repository.
 
 ## Acknowledgement
 Our work is inspired by the following works and uses parts of their official implementations:
