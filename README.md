@@ -212,6 +212,7 @@ The pretrained baseline weights can be downloaded from [Baidu Netdisk](https://p
 
 ## Acknowledgement
 Our work is inspired by the following works and uses parts of their official implementations:
+* [GM-Diffusion](https://github.com/Guanys-dar/GM-Diffusion)
 * [CODiff](https://github.com/jp-guo/CODiff)
 * [img2img-turbo](https://github.com/GaParmar/img2img-turbo)
 * [HDR-Transformer](https://github.com/liuzhen03/HDR-Transformer-PyTorch)
