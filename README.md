@@ -1,6 +1,6 @@
 # GMODiff: One-Step Gain Map Refinement with Diffusion Priors for Efficient HDR Reconstruction
 
-This is the implementation for GMODiff: One-Step Gain Map Refinement with Diffusion Priors for Efficient HDR Reconstruction, in ECCV, 2026.
+This is the implementation for GMODiff: One-Step Gain Map Refinement with Diffusion Priors for Efficient HDR Reconstruction, in ECCV, 2026. [arxiv](https://arxiv.org/abs/2512.16357)
 ![Illustrating the architecture of the proposed method](./figs/framework.png)
 > **Abstract:** *Pre-trained Latent Diffusion Models (LDMs) have recently shown strong perceptual priors for low-level vision tasks, making them a promising direction for multi-exposure High Dynamic Range (HDR) reconstruction. However, directly applying LDMs to HDR remains challenging due to: (1) limited dynamic-range representation caused by 8-bit latent compression, (2) high inference cost from multi-step denoising, and (3) content hallucination inherent to generative nature. 
 To address these challenges, we introduce GMODiff, a gain map-driven one-step diffusion framework for multi-exposure HDR reconstruction.
