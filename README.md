@@ -226,9 +226,10 @@ If this code is useful for your research, please cite:
 
 ```bibtex
 @inproceedings{hu2026gmodiff,
-  title={GMODiff: One-Step Gain Map Refinement with Diffusion Priors for HDR Reconstruction},
-  author={Hu, Tao and Zhou, Weiyu and Tu, Yanjie and Wu, Peng and Dong, Wei and Yan, Qingsen and Zhang, Yanning},
+  title={GMODiff: One-Step Gain Map Refinement with Diffusion Priors for Efficient HDR Reconstruction},
+  author={Hu, Tao and Zhou, Weiyu and Tu, Yanjie and Dong, Wei and Wu, Peng and Yan, Qingsen and Zhang, Yanning},
   booktitle={European Conference on Computer Vision},
+  pages={556--573},
   year={2026},
   organization={Springer}
 }
